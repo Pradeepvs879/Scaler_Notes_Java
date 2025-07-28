@@ -319,4 +319,26 @@ Great! To crack interviews involving **Java Threads and Concurrency**, you'll ne
 
 ---
 
+-> Immutable means something that is unchangeable or unmodifiable
 
+-> In terms of class, when we talk about immutable class it simply means Immutable class's objects when created then its object's values and state cannot be changed.
+
+-> Why use Immutable class
+
+-   Thread safe.
+
+-   Easier to debug and maintain.
+
+-   Popular in functional Programming and Spring frameworks
+
+-> Examples Wrapper classes, String, Primitive objects.
+
+-> How to make a class immutable
+
+-   Make a class Final so that it be cannot extended from another class -> Thereby preventing over riding.
+
+-   All the fields should be private and final so that direct access to the fields is blocked.
+
+-   No Setters.
+
+-   If using mutable object reference in immutable class, make a deep copy of it and then refer
