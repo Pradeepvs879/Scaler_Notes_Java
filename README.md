@@ -38,7 +38,7 @@ In Java, an **interface** is a blueprint for classes that can contain specific t
 
   interface Vehicle {
 
-      void start(); // Abstract method (no implementation)
+      void start(); // Abstract method Think what is functional interface
 
       void stop();
 
