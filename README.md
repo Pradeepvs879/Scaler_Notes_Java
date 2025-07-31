@@ -16,7 +16,7 @@ In Java, an **interface** is a blueprint for classes that can contain specific t
 
   interface Constants {
 
-      double PI = 3.14; // Automatically public static final
+      double PI = 3.14; 
 
       String APP_NAME = "MyApp";
 
