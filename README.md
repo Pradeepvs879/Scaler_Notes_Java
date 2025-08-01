@@ -33,7 +33,7 @@ In Java, an **interface** is a blueprint for classes that can contain specific t
 - Implicitly `public` and `abstract`.
 
 - Example:
-
+ 
   ```java
 
   interface Vehicle {
