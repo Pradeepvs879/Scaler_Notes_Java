@@ -12,7 +12,7 @@ In Java, an **interface** is a blueprint for classes that can contain specific t
 
 - Example:
 
-  ```java
+ 
 
   interface Constants {
 
